@@ -1,3 +1,68 @@
-* {
-    border: red 2px solid;
+
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+}
+
+body > div {
+    border: blue solid 3px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link-container {
+    display: flex;
+}
+
+.main-container-one {
+    padding: 50px; 
+}
+
+.left-of-img {
+    width: 40vw;
+}
+
+.text-image-container {
+    display: flex;
+}
+
+.main-container-two {
+    text-align: center;
+
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-two {
+    width: 15vw;
+    height: 15vh;
+}
+
+.main-container-three {
+    padding: 7vh 25vw ;
+}
+
+
+.align-text-quote {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.main-container-four {
+    padding: 7vh 15vw ;
+}
+
+.main-container-five {
+    text-align: center;
 }
